@@ -1,0 +1,130 @@
+.page-section-gap{
+  box-sizing: border-box;
+}
+.banner {
+  width:100%;
+  height: 310rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.swiper-box {
+  height: 310rpx;
+  width: 100%;
+}
+.swiper-box image {
+  height: 100%;
+  width: 100%;
+}
+.swiper-box .wx-swiper-dots.wx-swiper-dots-horizontal{
+     margin-bottom: 18rpx;
+}
+.swiper-box .wx-swiper-dot{
+    width:20rpx;
+    display: inline-flex;
+    height: 6rpx;
+    margin-left: 5rpx;
+    justify-content:space-between;
+}
+.swiper-box .wx-swiper-dot::before{
+    content: '';
+    flex-grow: 1; 
+    width: 20rpx;
+    height: 6rpx;
+    background: rgba(240,241,236,.6);
+}
+.swiper-box .wx-swiper-dot-active{
+    width: 30rpx;
+}
+.swiper-box .wx-swiper-dot-active::before{
+    background:rgba(255,255,255,1);   
+}
+.page-main{
+  background-color: #f9f9f9;
+  margin-top: 20rpx;
+}
+.main-list{
+  padding: 41rpx 30rpx;
+  background-color: #ffffff;
+}
+.gradient{
+  height: 20rpx;
+  background: -webkit-linear-gradient(#dcdcdc,#f3f3f3);  
+  background: -o-linear-gradient(#dcdcdc,#f3f3f3);  
+  background: -moz-linear-gradient(#dcdcdc,#f3f3f3);  
+  background: -mos-linear-gradient(#dcdcdc,#f3f3f3);  
+  background: linear-gradient(#dcdcdc,#f3f3f3);  
+}
+.list-tit{
+  height: 56rpx;
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+.list-txt{
+  font-size: 30rpx;
+  color: #282828;
+  font-weight:600;
+  line-height: 30rpx;
+  padding-top: 11rpx;
+  padding-bottom: 15rpx;
+  float: left;
+}
+.list-image{
+  width: 160rpx;
+  height: 56rpx;
+  float: right;
+}
+.bank{
+  height: 150rpx;
+  clear: both;
+}
+.bank-image{
+  width: 238rpx;
+  height: 150rpx;
+}
+.bank-txt{
+  display: inline-block;
+  margin-left: 22rpx;
+  vertical-align: top;
+  padding-top: 28rpx;
+  max-width: 270rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.txt-list{
+  display: block;
+  font-size: 22rpx;
+  color: #9a9a9a;
+  line-height: 38rpx;
+}
+.gif{
+  width: 140rpx;
+  height: 140rpx;
+  display: inline-block;
+  float: right;
+  margin-top: 10rpx;
+  border-radius: 50%;
+  position: relative;
+}
+.gif-image{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+.gift{
+  display: inline-block;
+  width:30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  background-color: #df0000;
+  font-size: 20rpx;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30rpx;
+  position: absolute;
+  top: 86rpx;
+  left: -8rpx;
+  
+}

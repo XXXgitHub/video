@@ -1,0 +1,37 @@
+<view class="page-section page-section-gap">
+    <view class='banner'>
+      <swiper class="swiper-box" indicator-dots="true" autoplay="true" interval="5000" duration="1000" circular="true">
+        <block wx:for="{{movies}}" wx:key="key">   
+          <swiper-item bindtap="{{item.clicktap}}" data-index="{{index}}">
+              <image src="{{item.url}}" class="slide-image" mode="aspectFill" /> 
+          </swiper-item>   
+        </block>
+      </swiper>
+    </view>
+</view>
+<view class='page-main'>
+  <block wx:for="{{viewList}}" wx:key="key"> 
+  <navigator url='{{item.linkurl}}'> 
+    <view class='main-list'>     
+        <view class='list'>
+            <view class='list-tit'>
+              <text class='list-txt'>{{item.title}}</text>              
+                <image class='list-image' src='{{item.apply}}'></image>             
+            </view>
+            <view class='bank'>
+                <image class='bank-image' src='{{item.bankImage}}'></image>
+                <view class='bank-txt'>
+                    <text class='txt-list txt-one'>{{item.txtOne}}</text>
+                    <text class='txt-list txt-two'>{{item.txtTwo}}</text>
+                </view>
+                <view class='gif'>
+                    <image class='gif-image' src='{{item.gifImage}}'></image>
+                    <text class='gift'>赠</text>
+                </view>
+            </view>
+        </view>
+    </view>
+     </navigator>
+    <view class='gradient'></view>
+  </block>
+</view>

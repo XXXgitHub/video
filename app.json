@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/link/linkone/linkone",
+    "pages/link/linkthr/linkthr",
+    "pages/link/linktwo/linktwo",
+    "pages/link/linkfou/linkfou",
+    "pages/link/linkYoung/linkYoung",
+    "pages/link/linkcurrency/linkcurrency",
+    "pages/link/linkHelloKitty/linkHelloKitty",
+    "pages/link/linkNaruto/linkNaruto",
+    "pages/link/linkKing/linkKing",
+    "pages/link/linkNBA/linkNBA"
+  ],
+  "window":{
+    "backgroundTextStyle":"black",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "招商银行信用卡申请",
+    "navigationBarTextStyle":"black",
+    "navigationBarFontWeight": "bold",
+    "enablePullDownRefresh": true
+  }
+}
